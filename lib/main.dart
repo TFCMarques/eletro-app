@@ -86,7 +86,7 @@ class Menu extends StatelessWidget {
                 height: 50.0,
                 child: RaisedButton(
                   child: Text(
-                    "Informação",
+                    "Informações",
                     style: TextStyle(
                       fontSize: 20.0, fontWeight: FontWeight.bold
                     ),

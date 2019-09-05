@@ -8,6 +8,8 @@ class Info extends StatefulWidget {
 class InfoState extends State<Info> {
   @override
   Widget build(BuildContext context) {
+    String loremIpsum = "There he comes. The least little bit can do so much. In this world, everything can be happy. The little tiny Tim easels will let you down. Let's get crazy. You can spend all day playing with mountains.";
+
     return Stack(
       children: <Widget>[
         Container(
@@ -44,9 +46,106 @@ class InfoState extends State<Info> {
             backgroundColor: Colors.transparent,
             elevation: 0.0,
           ),
-          body: Container(
-            color: Colors.transparent,
-          ),
+          body: ListView(
+            children: <Widget>[
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ),
+              Card(
+                margin: EdgeInsets.only(
+                  top: 10.0,
+                  bottom: 15.0,
+                  right: 25.0,
+                  left: 25.0
+                ),
+                child: Padding(
+                  padding: EdgeInsets.all(10.0),
+                  child: Text(loremIpsum),
+                ),
+              ) 
+            ],
+          )
         ),
       ],
     );

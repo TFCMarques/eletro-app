@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'package:eletro_app/praxis_dict.dart';
+import 'package:eletro_app/dict_praxis.dart';
 
 class PraxisCode extends StatefulWidget {
   @override
@@ -8,7 +8,7 @@ class PraxisCode extends StatefulWidget {
 }
 
 class PraxisCodeState extends State<PraxisCode> {
-  Widget chapterCard(index) {
+  Widget chapterCard(int index) {
     var chapter = praxisCode[index];
     String chapterNum = chapter["chapter"].toString();
     String title = chapter["title"];

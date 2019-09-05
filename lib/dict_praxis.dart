@@ -7,9 +7,9 @@ var praxisCode = [
         "article": 1,
         "title": "A noção de Praxe",
         "paragraphs": [
-          "Por Praxe entenda-se o conjunto de usos e costumes praticados entre os estudantes da Faculdade de Ciências e Tecnologia  da Universidade Nova de Lisboa doravante denominada por FCT/NOVA, devidamente aprovados pelo Conselho de Praxe (CP) dFCT/NOVA.",
-          "O fundamento destes usos e costumes reside na introdução de um espírito de camaradagem, entreajuda e solidariedade entre   todos os estudantes da Instituição, permitindo-lhes uma melhor integração no Espírito Académico.",
-          "É também introduzido o conceito Dvra Praxis Sed Praxis, tanto para o Caloiro, como para os estudantes praxantes. A noção   de Dvra Praxis Sed Praxis vem no sentido da Praxe, como máxima Académica, sendo a mesma aplicada de igual forma a todos os alunos,    o que a torna rigorosa e universal."
+          "Por Praxe entenda-se o conjunto de usos e costumes praticados entre os estudantes da Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa doravante denominada por FCT/NOVA, devidamente aprovados pelo Conselho de Praxe (CP) da FCT/NOVA.",
+          "O fundamento destes usos e costumes reside na introdução de um espírito de camaradagem, entreajuda e solidariedade entre todos os estudantes da Instituição, permitindo-lhes uma melhor integração no Espírito Académico.",
+          "É também introduzido o conceito Dvra Praxis Sed Praxis, tanto para o Caloiro, como para os estudantes praxantes. A noção de Dvra Praxis Sed Praxis vem no sentido da Praxe, como máxima Académica, sendo a mesma aplicada de igual forma a todos os alunos, o que a torna rigorosa e universal."
         ]
       },
       {
@@ -19,12 +19,12 @@ var praxisCode = [
           "A vinculação à Praxe é regida segundo as seguintes normas:",
           " a) A adesão à Praxe não é obrigatória, mas se o estudante tomar posição favorável terá que respeitar todos os pontos deste Código;",
           " b) Qualquer estudante pode declarar-se anti-Praxe, estando sempre sujeito às deliberações do artigo trigésimo quinto;",
-          " c) As normas apresentadas neste Código são aplicáveis a todos os estudantes da FCT/NOVA, sendo reguladas internamente, em     cada curso pelas Comissões de Praxe (CoPe’s) e em toda a Faculdade pelo CP;",
+          " c) As normas apresentadas neste Código são aplicáveis a todos os estudantes da FCT/NOVA, sendo reguladas internamente, em cada curso pelas Comissões de Praxe (CoPe’s) e em toda a Faculdade pelo CP;",
           " d) A Praxe tem vigência em todo o ano letivo, exceto em dias de luto Académico;",
-          " e) As normas apresentadas neste Código são aplicáveis no campus da FCT/NOVA e em qualquer atividade promovida por todo e  qualquer organismo da FCT/NOVA, pelo CP em representação da AEFCT, ou pelas CoPe’s, em representação dos vários cursos, salvo no recinto da Semana do Caloiro;",
-          " f) Qualquer estudante da FCT/NOVA está sujeito à Praxe desde que um seu superior hierárquico na Praxe (ou no mesmo grau   hierárquico mas com mais matrículas) assim o deseje;",
-          " g) Todos os estudantes com duas ou mais matrículas têm o direito de praxar, desde que tenham participado ativamente nas   atividades de Praxe, Enterro do Caloiro e Traçar das capas. No entanto, aqueles que apenas tenham duas matrículas, só podem praxar se tiverem supervisão de um estudante com pelo menos mais uma matrícula, quer nas atividades de Praxe coletivas quer nas atividades de Praxe individuais;",
-          " h) Qualquer estudante externo à FCT/NOVA, vulgo Peregrino, é passível de lhe ser aplicado a Praxe pelo CP, se por algum   motivo desrespeitar o presente Código de Praxe. Tal ocorrência implica a atribuição temporária do estatuto Caloiro assim como todas as implicações que esse estatuto acarreta. Acresce ainda que a falta de respeito, a acontecer, deve ser comunicada ao CP congénere do respetivo Peregrino."
+          " e) As normas apresentadas neste Código são aplicáveis no campus da FCT/NOVA e em qualquer atividade promovida por todo e qualquer organismo da FCT/NOVA, pelo CP em representação da AEFCT, ou pelas CoPe’s, em representação dos vários cursos, salvo no recinto da Semana do Caloiro;",
+          " f) Qualquer estudante da FCT/NOVA está sujeito à Praxe desde que um seu superior hierárquico na Praxe (ou no mesmo grau hierárquico mas com mais matrículas) assim o deseje;",
+          " g) Todos os estudantes com duas ou mais matrículas têm o direito de praxar, desde que tenham participado ativamente nas atividades de Praxe, Enterro do Caloiro e Traçar das capas. No entanto, aqueles que apenas tenham duas matrículas, só podem praxar se tiverem supervisão de um estudante com pelo menos mais uma matrícula, quer nas atividades de Praxe coletivas quer nas atividades de Praxe individuais;",
+          " h) Qualquer estudante externo à FCT/NOVA, vulgo Peregrino, é passível de lhe ser aplicado a Praxe pelo CP, se por algum motivo desrespeitar o presente Código de Praxe. Tal ocorrência implica a atribuição temporária do estatuto Caloiro assim como todas as implicações que esse estatuto acarreta. Acresce ainda que a falta de respeito, a acontecer, deve ser comunicada ao CP congénere do respetivo Peregrino."
         ]
       }
     ]

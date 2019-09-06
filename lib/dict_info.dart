@@ -40,7 +40,7 @@ var info = [
       "Ed. IV - Salas de Aulas",
       "Ed. V - Grande Auditório",
       "Ed. Departamental - Departamento de Química, Departamento de Ciências e Engenharia do Ambiente, Departamento de Conservação e Restauro, Departamento de Ciências da Vida e Departamento de Ciências e Tecnologia da Biomassa",
-      "Ed. VI - Madan Parques"
+      "Ed. VI - Madan Parque",
       "Ed. VII - Departamento de Matemática e Departamento de Ciências Sociais Aplicadas",
       "Ed. VIII - Departamento de Engenharia Mecânica e Industrial",
       "Ed. IX - Departamento de Engenharia Civil e Departamento de Ciências da Terra",
@@ -100,7 +100,7 @@ var info = [
       "https://www.facebook.com/AEFCT/",
       "https://www.facebook.com/CPFCT/",
       "https://www.facebook.com/CoPe-MIEEC-222469944483301/",
-      "https://www.facebook.com/groups/424698811495853/"
+      "https://www.facebook.com/groups/424698811495853/",
       "https://www.instagram.com/fctnova/",
       "https://www.instagram.com/aefct/",
       "https://www.instagram.com/desportoaefct/",
@@ -131,5 +131,5 @@ var info = [
       "Desporto da AEFCT",
       "Site do Conselho de Praxe",
     ]
-  }
+  },
 ];

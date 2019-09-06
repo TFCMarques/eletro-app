@@ -10,7 +10,7 @@ class PraxisCode extends StatefulWidget {
 class PraxisCodeState extends State<PraxisCode> {
   Widget chapterCard(int index) {
     var chapter = praxisCode[index];
-    String chapterNum = chapter["chapter"].toString();
+    String chapterNum = chapter["chapter"];
     String title = chapter["title"];
     List articles = chapter["articles"];
 

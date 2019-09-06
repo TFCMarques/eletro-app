@@ -1,6 +1,6 @@
 var praxisCode = [
   {
-    "chapter": 1,
+    "chapter": "I",
     "title": "Generalidades",
     "articles": [
       {
@@ -30,7 +30,7 @@ var praxisCode = [
     ]
   },
   {
-    "chapter": 2,
+    "chapter": "II",
     "title": "O sujeito da Praxe",
     "articles": [
       {
@@ -323,7 +323,7 @@ var praxisCode = [
     ]
   },
   {
-    "chapter": 3,
+    "chapter": "III",
     "title": "Traje Académico",
     "articles": [
       {
@@ -473,7 +473,7 @@ var praxisCode = [
     ]
   },
   {
-    "chapter": 4,
+    "chapter": "IV",
     "title": "Solenidades",
     "articles": [
       {
@@ -500,7 +500,7 @@ var praxisCode = [
     ]
   },
   {
-    "chapter": 5,
+    "chapter": "V",
     "title": "Insígnias da Praxe",
     "articles": [
       {
@@ -522,7 +522,7 @@ var praxisCode = [
     ]
   },
   {
-    "chapter": 6,
+    "chapter": "VI",
     "title": "Disposições e Considerações Finais",
     "articles": [
       {

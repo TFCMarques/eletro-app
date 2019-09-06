@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:eletro_app/dict_guide.dart';
 
 class Guide extends StatefulWidget {
   @override
@@ -6,9 +7,59 @@ class Guide extends StatefulWidget {
 }
 
 class GuideState extends State<Guide> {
+  List<Widget> guideText(String title, List tags, List paragraphs) {
+    List<Widget> guideTextList = [];
+
+    guideTextList.add(
+      Text(
+        title,
+        textAlign: TextAlign.center,
+        style: TextStyle(
+          fontSize: 16.0,
+          fontWeight: FontWeight.bold
+        ),
+      )
+    );
+
+    for(var i=0; i<tags.length; i++) {
+      guideTextList.add(
+        Divider(
+          height: 15.0,
+        )
+      );
+
+      guideTextList.add(
+        Text(
+          tags[i],
+          textAlign: TextAlign.left,
+          style: TextStyle(
+            fontWeight: FontWeight.bold
+          ),
+        )
+      );
+
+      guideTextList.add(
+        Divider(
+          height: 15.0,
+        )
+      );
+
+      guideTextList.add(
+        Text(
+          paragraphs[i],
+          textAlign: TextAlign.justify,
+        )
+      );   
+    }
+
+    return guideTextList;
+  }
+
   @override
   Widget build(BuildContext context) {
-    String loremIpsum = "There he comes. The least little bit can do so much. In this world, everything can be happy. The little tiny Tim easels will let you down. Let's get crazy. You can spend all day playing with mountains.";
+    String title = guide["title"];
+    List tags = guide["tags"];
+    List paragraphs = guide["paragraphs"];
 
     return Stack(
       children: <Widget>[
@@ -58,9 +109,7 @@ class GuideState extends State<Guide> {
             color: Colors.white,
             child: ListView(
               padding: EdgeInsets.all(20),
-              children: <Widget>[
-                Text(loremIpsum)
-              ],
+              children: guideText(title, tags, paragraphs),
             )
           )
         ),

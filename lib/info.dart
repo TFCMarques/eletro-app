@@ -10,7 +10,6 @@ class Info extends StatefulWidget {
 }
 
 class InfoState extends State<Info> {
-
   List<Widget> infoCard(int numCards) {
     List<Widget> infoCards = [];
 
@@ -50,6 +49,8 @@ class InfoState extends State<Info> {
 
   List<Widget> infoCardText(String title, List paragraphs, List urls, String imgURL, List icons, List tags) {
     List<Widget> infoCardText = [];
+    double deviceWidth = MediaQuery.of(context).size.width;
+    double deviceHeight = MediaQuery.of(context).size.width;
 
     infoCardText.add(
       Text(
@@ -71,7 +72,7 @@ class InfoState extends State<Info> {
     if(imgURL != null) {
       infoCardText.add(
         Container(
-          height: 385.0,
+          height: deviceHeight,
           child: Stack(
             children: <Widget>[
               ClipRect(
@@ -121,7 +122,7 @@ class InfoState extends State<Info> {
       if(j+1 > urls.length) {
         text = Text(
           paragraphs[j],
-          textAlign: TextAlign.justify,
+          textAlign: TextAlign.left,
         );
       } else {
         text = InkWell(
@@ -131,7 +132,7 @@ class InfoState extends State<Info> {
               color: Colors.blueGrey,
               decoration: TextDecoration.underline
             ),
-            textAlign: TextAlign.justify,
+            textAlign: TextAlign.left,
           ),
           onTap: () => launch(urls[j]),
         );
@@ -158,7 +159,7 @@ class InfoState extends State<Info> {
                   size: 40.0,
                 ),
                 Container(
-                  width: 200.0,
+                  width: deviceWidth * 0.4,
                   margin: EdgeInsets.only(
                     right: 20.0,
                     left: 20.0

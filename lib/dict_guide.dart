@@ -1,5 +1,5 @@
 var guide = {
-  "title": "Guia do Caloiro",
+  "title": "Bem-vindo, Caloiro!",
   "tags": [
     "Uma nova etapa...",
     "Sobre a Faculdade...",

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:eletro_app/guide.dart';
 import 'package:eletro_app/info.dart';
 import 'package:eletro_app/praxis_code.dart';
+import 'package:eletro_app/music_display.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
       routes: <String, WidgetBuilder>{
         "/Guide": (BuildContext context) => Guide(),
         "/Info": (BuildContext context) => Info(),
-        "/PraxisCode": (BuildContext context) => PraxisCode()
+        "/PraxisCode": (BuildContext context) => PraxisCode(),
+        "/MusicDisplay": (BuildContext context) => MusicDisplay()
       },
     );
   }
@@ -78,7 +80,7 @@ class Menu extends StatelessWidget {
                   },
                 )
               ),
-              Divider(
+                            Divider(
                 height: 30.0,
               ),
               SizedBox(
@@ -86,7 +88,7 @@ class Menu extends StatelessWidget {
                 height: 50.0,
                 child: RaisedButton(
                   child: Text(
-                    "Informações",
+                    "Cancioneiro",
                     style: TextStyle(
                       fontSize: 20.0, fontWeight: FontWeight.bold
                     ),
@@ -100,7 +102,7 @@ class Menu extends StatelessWidget {
                       context,
                       PageRouteBuilder(
                         pageBuilder: (context, anim, secAnim) {
-                          return Info();
+                          return MusicDisplay();
                         },
                         transitionsBuilder: (context, anim, secAnim, child) {
                           return FadeTransition(
@@ -147,7 +149,42 @@ class Menu extends StatelessWidget {
                     );
                   },
                 )
-              )
+              ),
+              Divider(
+                height: 30.0,
+              ),
+              SizedBox(
+                width: 300.0,
+                height: 50.0,
+                child: RaisedButton(
+                  child: Text(
+                    "Informações",
+                    style: TextStyle(
+                      fontSize: 20.0, fontWeight: FontWeight.bold
+                    ),
+                  ),
+                  color: Colors.white,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0)
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      PageRouteBuilder(
+                        pageBuilder: (context, anim, secAnim) {
+                          return Info();
+                        },
+                        transitionsBuilder: (context, anim, secAnim, child) {
+                          return FadeTransition(
+                            opacity: anim,
+                            child: child,
+                          );
+                        }
+                      )
+                    );
+                  },
+                )
+              ),
             ]
           ),
         ),

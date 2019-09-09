@@ -104,7 +104,7 @@ var info = [
       "https://www.instagram.com/fctnova/",
       "https://www.instagram.com/aefct/",
       "https://www.instagram.com/desportoaefct/",
-      "https://sites.google.com/site/conselhodepraxefctunl/",
+      "https://conselhodepraxe.wixsite.com/fctnova",
     ],
     "paragraphs": [],
     "icons": [
@@ -117,7 +117,7 @@ var info = [
       FontAwesomeIcons.instagram,
       FontAwesomeIcons.instagram,
       FontAwesomeIcons.instagram,
-      FontAwesomeIcons.google,
+      FontAwesomeIcons.wix,
     ],
     "descriptions": [
       "Página da FCT-NOVA",
